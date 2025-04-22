@@ -10,9 +10,11 @@
 
 one:
 	echo Hello - One
+# This syntax wil print command and then output
 
 two:
-	echo Hello - Two
+	@echo Hello - Two
+# This syntax wil print only output
 
 
 # Make supports only tab spaces in indentation, simple spaces will not help
