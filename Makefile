@@ -18,3 +18,12 @@ two:
 
 
 # Make supports only tab spaces in indentation, simple spaces will not help
+
+# Keep Code dry
+
+git-pull:
+	git pull
+
+three: git-pull
+	echo Hello - Three
+
